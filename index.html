@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <title>SchoolBravo</title>
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+              <a class="navbar-brand" href="#">SchoolBravo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Estatamientos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Equipo directivo</a></li>
+                      <li><a class="dropdown-item" href="#">UTP</a></li>
+                      <li><a class="dropdown-item" href="#">Equipo convivencia escolar</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <!--Carrusel-->
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/carrucel/Exterior.jpg" class="d-block w-100" alt="Imagen Exterior escuela">
+              </div>
+              <div class="carousel-item">
+                <img src="img/carrucel/sala1.jpg" class="d-block w-100" alt="sala de clases">
+              </div>
+              <div class="carousel-item">
+                <img src="img/carrucel/sala2.jpg" class="d-block w-100" alt="sala de clases">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        <!--Home-->
+        <div class="container py-4">
+            <p class="lead text-center">Bienvenidos a SchoolBravo, una escuela comprometida con la excelencia académica y el desarrollo integral de nuestros estudiantes. Ofrecemos una amplia gama de programas educativos y actividades extracurriculares para fomentar el crecimiento personal y profesional de cada uno de nuestros alumnos. Nuestra comunidad escolar se caracteriza por su ambiente inclusivo, participativo y enriquecedor. ¡Únete a nosotros y descubre un mundo de oportunidades educativas!</p>
+        </div>
+        <!--Card-->
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/cards/Talleres.png" class="card-img-top" alt="Talleres">
+                        <div class="card-body">
+                          <h5 class="card-title">Talleres Extracuriculares</h5>
+                          <p class="card-text">Las Actividades Curriculares de Libre Elección (ACLES) buscan la participación y desarrollo integral de todos los estudiantes mediante la oferta programática de diversas actividades deportivas, culturales, artísticas y pedagógicas.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/cards/Convivencia.png" class="card-img-top" alt="Convivencia">
+                        <div class="card-body">
+                          <h5 class="card-title">Convivencia Escolar</h5>
+                          <p class="card-text">El Equipo de Convivencia Escolar es el encargado de diseñar acciones y estrategias que propicien la participación y construcción de una comunidad escolar democrática</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/cards/logo_pie.png" class="card-img-top" alt="PIE">
+                        <div class="card-body">
+                          <h5 class="card-title">Programa Integración Escolar</h5>
+                          <p class="card-text">El PIE contribuye al proceso de inclusión y al mejoramiento continuo de la calidad de la educación del Liceo Politécnico por medio de la innovación educativa para responder a la diversidad de formas de aprender de todos los estudiantes.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <!--Formulario-->
+        <div class="container py-5">
+        <div class="card mx-auto" style="max-width: 500px;">
+        <div class="card-body">
+        <h4 style="text-align: center;">Formulario de Contacto</h4>
+        <form>
+            <div class="mb-3">
+                <label for="contactName" class="form-label">Nombre (Requerido)</label>
+                <input type="text" class="form-control" id="contactName" placeholder="Tu nombre" required>
+            </div>
+            <div class="mb-3">
+                <label for="contactEmail" class="form-label">Email (Requerido)</label>
+                <input type="email" class="form-control" id="contactEmail" placeholder="name@example.com" required>
+            </div>
+            <div class="mb-3">
+                <label for="contactSubject" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="contactSubject" placeholder="Asunto del mensaje">
+            </div>
+            <div class="mb-3">
+                <label for="contactMessage" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="contactMessage" rows="3" placeholder="Tu mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        </div>
+        </div>
+        </div>
+        <!--Footer-->
+        <footer class="bg-dark text-white text-center py-3">
+            <p>&copy; 2024 SchoolBravo. Todos los derechos reservados.</p>
+        </footer>    
+    </body>
+</html>

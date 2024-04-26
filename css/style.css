@@ -1,0 +1,70 @@
+/* Estilo para el cuerpo y la navegación */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #f8f9fa;
+}
+
+/* Estilo para el carrusel */
+.carousel-item img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Estilo para el home */
+.container p {
+    font-size: 1.1rem;
+    color: #000;
+}
+
+/* Estilo para las tarjetas */
+.card {
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #343a40;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+/* Estilo para el formulario */
+.card form {
+    padding: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-color: #ced4da;
+}
+
+/* Estilo para los botones */
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+}
