@@ -39,3 +39,8 @@ Debe considerar:
 
 - Revisión de entregable: 50%
 - Preguntas sobre el código (3): 50%
+
+# Puntuacion maxima en la evaluacion
+<img width="155" alt="Screenshot 2024-06-10 at 20 57 42" src="https://github.com/SebitaBravo/SchoolBravo/assets/143559840/e7909e4a-0ba5-45a1-99ee-5e3b7512a5f1">
+<img width="1008" alt="Screenshot 2024-06-10 at 20 58 56" src="https://github.com/SebitaBravo/SchoolBravo/assets/143559840/bf726563-9917-4e81-9e89-5bdf525d1bfc">
+
