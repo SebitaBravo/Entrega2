@@ -44,5 +44,5 @@ Debe considerar:
 
 Me complace compartir que obtuve la **puntuación máxima (7)** en esta evaluación.
 
-<img src="https://github.com/SebitaBravo/SchoolBravo/assets/143559840/bf726563-9917-4e81-9e89-5bdf525d1bfc" alt="Detalle de la Evaluación" width="300"/>
 <img src="https://github.com/SebitaBravo/SchoolBravo/assets/143559840/e7909e4a-0ba5-45a1-99ee-5e3b7512a5f1" alt="Puntuación Máxima" width="300"/>
+<img src="https://github.com/SebitaBravo/SchoolBravo/assets/143559840/bf726563-9917-4e81-9e89-5bdf525d1bfc" alt="Detalle de la Evaluación" width="2000"/>
